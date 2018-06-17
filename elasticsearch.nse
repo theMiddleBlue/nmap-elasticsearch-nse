@@ -1,6 +1,6 @@
 description = [[
-Attempts to enumerate indices and cluster nodes querying an elasticsearch
-exposing an unauthenticated HTTP 9200/tcp port using its API.
+Attempts to enumerate indices, plugins and cluster nodes on a target elasticsearch
+exposing an unauthenticated HTTP port (default 9200/tcp) using the elasticsearch RESTful API.
 ]]
 
 author = "theMiddle"
