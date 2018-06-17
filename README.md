@@ -3,20 +3,22 @@ Nmap NSE script for enumerating indices, plugins and cluster nodes on an elastic
 
 ### Install
 ```bash
-# git clone https://github.com/theMiddleBlue/nmap-elasticsearch-nse.git
-# cp nmap-elasticsearch-nse/elasticsearch.nse /usr/share/nmap/scripts/
-# 
+$ # clone repo from github 
+$ git clone https://github.com/theMiddleBlue/nmap-elasticsearch-nse.git
+
+$ # copy elasticsearch.nse script on nmap/script directory
+$ cp nmap-elasticsearch-nse/elasticsearch.nse /usr/share/nmap/scripts/
 ```
 
 
 ### Usage
 ```bash
-# nmap --script=elasticsearch <target>
+$ nmap --script=elasticsearch <target>
 ```
 
 ### Output
 ```bash
-# nmap -p9200 --script=elasticsearch 10.0.1.11
+$ nmap -p9200 --script=elasticsearch 10.0.1.11
 
 Starting Nmap 7.01 ( https://nmap.org ) at 2018-06-17 16:42 CEST
 Nmap scan report for 10.0.1.11
@@ -89,8 +91,8 @@ Nmap done: 1 IP address (1 host up) scanned in 3.44 seconds
 ```
 
 ### Author
-**theMiddle**
-**Twitter**: https://twitter.com/Menin_TheMiddle
-**Blog**: https://medium.com/@themiddleblue
+**theMiddle**<br>
+**Twitter**: [https://twitter.com/Menin_TheMiddle](https://twitter.com/Menin_TheMiddle)<br>
+**Blog**: [https://medium.com/@themiddleblue](https://medium.com/@themiddleblue)<br>
 
 
