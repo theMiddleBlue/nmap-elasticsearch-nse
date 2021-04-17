@@ -92,7 +92,7 @@ Nmap done: 1 IP address (1 host up) scanned in 3.44 seconds
 
 ### Author
 **theMiddle**<br>
-**Twitter**: [https://twitter.com/Menin_TheMiddle](https://twitter.com/Menin_TheMiddle)<br>
-**Blog**: [https://medium.com/@themiddleblue](https://medium.com/@themiddleblue)<br>
+**Twitter**: [https://twitter.com/AndreaTheMiddle](https://twitter.com/AndreaTheMiddle)<br>
+**Blog**: [https://www.secjuice.com/author/themiddle/](https://www.secjuice.com/author/themiddle/)<br>
 
 
