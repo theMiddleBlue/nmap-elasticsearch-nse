@@ -22,7 +22,7 @@ action = function(host, port)
   local response = http.get(host, port, uri)
   if ( response.status == 200 ) then
     if ( string.find(response.body, "You Know, for Search") ) then
-      local out = "by theMiddle (Twitter: @Menin_TheMiddle)\n\n"
+      local out = "by theMiddle (Twitter: @AndreaTheMiddle)\n\n"
       out = out .. "found RESTful API\n"
       err, esjson = json.parse(response.body)
 
